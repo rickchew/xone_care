@@ -1,0 +1,97 @@
+<ion-header>
+  <ion-navbar color="ionHeader">
+    <ion-title>Dashboard</ion-title>
+    <button ion-button menuToggle right>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+  </ion-navbar>
+</ion-header>
+<ion-content style="background-color: #fff">
+
+  <!--App menus-->
+  <div class="card-container">
+    <ion-row>
+      <ion-col align-self-center style="border-right : solid 1px #ccc;">
+        <div class="btn-container" (click)="qrScanner()">
+          <i class="iconfont icon-saoyisao" style = "font-size : 20px;"></i>
+          <p style = "font-size : 12px;">QR Scanner</p>
+        </div>
+      </ion-col>
+      <ion-col align-self-center style="border-right : solid 1px #ccc; ">
+        <div class="btn-container" (click)="d()">
+          <i class="iconfont icon-wodedingdan" style = "font-size : 20px;"></i>
+          <p style = "font-size : 12px;">Timeline</p>
+        </div>
+      </ion-col>
+      <ion-col align-self-center style="border-right : solid 1px #ccc;  ">
+        <div class="btn-container" (click)="d()">
+          <i class="iconfont icon-wodejuhuasuan" style = "font-size : 20px;"></i>
+          <p style = "font-size : 12px;">Profile</p>
+        </div>
+      </ion-col>
+      <ion-col align-self-center>
+        <div class="btn-container" (click)="d()">
+          <i class="iconfont icon-erweima" style = "font-size : 20px;"></i>
+          <p style = "font-size : 12px;">My QR Code</p>
+        </div>
+      </ion-col>
+    </ion-row>
+  </div>
+
+  <ion-card>
+    <ion-row style="padding-left : 10px;">
+      <ion-col>
+        <p style="color : 	#323232; font-weight : bold; font-size : 16px;">Iphone 6s Plus Care 365</p>
+      </ion-col>
+    </ion-row>
+    <ion-row style="padding-left : 10px;">
+      <ion-col>
+        <span style="color : #797777; font-size : 12px">Dealer : <strong style = "color : #323232; font-weight : bold; font-size : 12px;">PC Image-Boulevard</strong></span>
+      </ion-col>
+    </ion-row>
+    <ion-row style="padding-left : 10px;">
+      <ion-col>
+        <span style="color : #797777; font-size : 12px">Date Purchased : <strong style = "color : #323232; font-weight : bold; font-size : 12px;">Jan 2, 2018</strong></span>
+      </ion-col>
+    </ion-row>
+    <ion-row style="padding-left : 10px;">
+      <ion-col>
+        <p style="color : #797777; font-size : 12px">Expiry In</p>
+        <p style="color : #2BD94E; font-weight : bold; font-size : 14px;">51 Day(s)</p>
+      </ion-col>
+      <ion-col>
+        <p style="color : #797777; font-size : 12px">Product Status</p>
+        <p style="color : #2BD94E; font-weight : bold; font-size : 14px;">Active</p>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+
+  <ion-card>
+    <ion-row style="padding-left : 10px;">
+      <ion-col>
+        <p style="color : 	#323232; font-weight : bold; font-size : 16px;">Iphone 6s Plus Care 365</p>
+      </ion-col>
+    </ion-row>
+    <ion-row style="padding-left : 10px;">
+      <ion-col>
+        <span style="color : #797777; font-size : 12px">Dealer : <strong style = "color : #323232; font-weight : bold; font-size : 12px;">PC Image-Boulevard</strong></span>
+      </ion-col>
+    </ion-row>
+    <ion-row style="padding-left : 10px;">
+      <ion-col>
+        <span style="color : #797777; font-size : 12px">Date Purchased : <strong style = "color : #323232; font-weight : bold; font-size : 12px;">Jan 2, 2018</strong></span>
+      </ion-col>
+    </ion-row>
+    <ion-row style="padding-left : 10px;">
+      <ion-col>
+        <p style="color : #797777; font-size : 12px">Expiry In</p>
+        <p style="color : #2BD94E; font-weight : bold; font-size : 14px;">51 Day(s)</p>
+      </ion-col>
+      <ion-col>
+        <p style="color : #797777; font-size : 12px">Product Status</p>
+        <p style="color : #2BD94E; font-weight : bold; font-size : 14px;">Active</p>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+
+</ion-content>
